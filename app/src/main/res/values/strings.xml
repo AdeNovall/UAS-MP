@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Alihusni_UTS</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alihusni0303_gmail_com">alihusni0303@gmail.com</string>
+    <string name="alihusni">Alihusni</string>
+    <string name="message_fragment">Message Fragment</string>
+</resources>

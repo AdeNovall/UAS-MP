@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Android.UAS_AdeNoval">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="School In Tegal"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alihusni_UTS"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.Android.UAS_AdeNoval.daftar_sekolah2"
+            android:exported="false" />
+        <activity
+            android:name=".DaftarSekolah"
+            android:exported="false" />
+        <activity
+            android:name="com.Android.UAS_AdeNoval.DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.Android.UAS_AdeNoval.MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.Android.UAS_AdeNoval.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
